@@ -1,0 +1,4 @@
+# Read only at server start — restart `streamlit run` after changing these.
+[server]
+maxUploadSize = 500    # MB (default 200) — allow large PDFs
+maxMessageSize = 500   # MB
